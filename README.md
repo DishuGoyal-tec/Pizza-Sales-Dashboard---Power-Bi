@@ -1,45 +1,122 @@
-# Pizza-Sales-Dashboard---Power-Bi
-This project focuses on analyzing pizza sales data to uncover key business insights using Power BI. The dashboard is designed to help stakeholders understand sales performance, customer demand patterns, and product trends through interactive and visually clear reports.
-🔍 Project Objective
+# 🍕 Wheels of Cheese – Sales Performance & Revenue Intelligence Dashboard
 
-To transform raw pizza sales data into meaningful insights that support data-driven decision-making for revenue growth, inventory planning, and product optimization.
+## 📌 Project Overview
 
-📊 Key Insights Covered
+Wheels of Cheese is a fictional pizza company operating across multiple product categories and sizes.
+The leadership team wanted to understand **what drives revenue, which products customers prefer, and where business opportunities exist**.
 
-Total Revenue, Total Orders, and Total Pizzas Sold
+As a Data Analyst, I built an interactive Power BI dashboard to transform raw order data into **decision-ready insights**.
 
-Average Order Value (AOV)
+This project demonstrates how data can be used to monitor KPIs, identify sales patterns, and support smarter operational and marketing strategies.
 
-Sales trends by day, month, and time of order
+---
 
-Top & bottom performing pizzas based on revenue and quantity
+## 🎯 Business Problem
 
-Category-wise and size-wise sales contribution
+Despite having strong sales, management did not have clear visibility into:
 
-Peak sales hours and high-demand periods
+* Which pizza categories generate the highest revenue
+* How ordering behavior changes by day and month
+* What sizes customers prefer
+* Which individual products are top performers
+* Whether the average order value is healthy
 
-🛠 Tools & Technologies
+Without this clarity, pricing, promotions, and inventory planning were largely guesswork.
 
-Power BI – Data modeling, DAX measures, and dashboard creation
+---
 
-Power Query – Data cleaning and transformation
+## 🧠 My Objective
 
-DAX – Calculated measures and KPIs
+Build a centralized analytics view that would:
 
-📌 Features
+✔ Track core performance metrics
+✔ Reveal customer purchase behavior
+✔ Identify best & worst performing products
+✔ Enable filtering by time, category, and size
+✔ Help leadership make data-backed decisions
 
-Interactive filters and slicers
+---
 
-User-friendly layout with business-focused KPIs
+## 📊 KPI Snapshot (from the dashboard)
 
-Clear visual storytelling for quick insights
+* **Total Revenue:** 68.23K
+* **Total Orders:** 1,773
+* **Total Pizzas Sold:** 4,107
+* **Average Order Value:** 38.48
 
-Optimized data model for performance
+These KPIs instantly communicate overall business health.
 
-📁 Dataset
+---
 
-The dataset contains historical pizza sales data including order details, pizza categories, sizes, quantities, prices, and timestamps.
+## 🔍 Key Insights Discovered
 
-🚀 Outcome
+### 1️⃣ Revenue is concentrated in specific categories
 
-This dashboard enables quick identification of sales trends, popular products, and revenue drivers, making it useful for business analysis, reporting, and portfolio demonstration.
+Supreme and Classic pizzas contribute the largest share of revenue, closely followed by Chicken, while Veggie generates comparatively lower sales.
+
+👉 This indicates strong customer inclination toward premium and traditional options.
+
+---
+
+### 2️⃣ A few products drive a large portion of sales
+
+Items like:
+
+* California Chicken
+* Thai Chicken
+* Barbecue Chicken
+
+consistently rank at the top.
+
+👉 A small product group is responsible for a significant percentage of total revenue (Pareto effect).
+
+---
+
+### 3️⃣ Daily sales fluctuations reveal demand patterns
+
+Order trends across days show noticeable peaks and drops.
+
+👉 This can help in:
+
+* staff scheduling
+* kitchen preparation
+* targeted weekday promotions
+
+---
+
+### 4️⃣ Average Order Value provides upsell opportunities
+
+With AOV around **38**, bundles, meal deals, or add-ons could be introduced to increase per-customer spending.
+
+---
+
+### 5️⃣ Size preference impacts inventory planning
+
+By filtering across sizes (S to XXL), management can anticipate dough, ingredient, and packaging requirements.
+
+---
+
+## 💼 Business Recommendations
+Based on analysis, I would suggest:
+✅ Promote high-performing pizzas in ads & combos
+✅ Create offers to improve Veggie category sales
+✅ Run targeted discounts on low-demand days
+✅ Design upsell strategies to raise AOV
+✅ Stock inventory aligned with popular sizes & categories
+---
+
+## 🛠 Tools & Skills Demonstrated
+* Power BI
+* Data Cleaning
+* Data Modeling
+* DAX Measures
+* KPI Design
+* Interactive Filtering
+* Business Insight Generation
+* Data Storytelling
+
+---
+## 🚀 What Makes This Project Strong
+This is not just a dashboard.
+It is a **decision-support system** that converts raw transactions into strategic direction.
+---
